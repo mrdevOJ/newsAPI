@@ -30,6 +30,7 @@ fetch("https://newsapi.org/v2/everything?q=Apple&from=2023-01-31&sortBy=populari
     $(document).ready(function() {
 
 for(var i=0; i<news.articles.length; i++){
+    
 
     
     let x = Math.floor((Math.random() * 100) + 1);
