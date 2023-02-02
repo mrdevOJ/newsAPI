@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #e8e8e8;
+background-image:  radial-gradient(#242424 2px, transparent 2px), radial-gradient(#242424 2px, #e8e8e8 2px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+}
+#breaking{
+  margin-bottom: 10px;
+}
