@@ -20,7 +20,7 @@ $("#EUR").html(Math.round(EUR*100)/100);
 })
 });
 
-fetch("https://newsapi.org/v2/everything?q=Apple&from=2023-01-31&sortBy=popularity&apiKey=c9e309366c144116b1eff06313e7130d")
+fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=c9e309366c144116b1eff06313e7130d")
 .then(respons=>respons.json())
 .then((news)=>{
 
